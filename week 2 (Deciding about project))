@@ -1,0 +1,153 @@
+What is Computer Vision?
+Computer Vision (CV) is a branch of artificial intelligence enabling computers to interpret and process images or videos similar to how humans perceive visual information.
+
+Typical CV Tasks:
+
+Image Classification: Assign labels (e.g., cat vs dog).
+
+Object Detection: Locate and classify multiple objects.
+
+Facial Recognition: Identify and verify people.
+
+Pose Estimation: Detect human body posture and movements.
+
+Image Segmentation: Classify every pixel (e.g., medical images, self-driving cars).
+
+Optical Character Recognition (OCR): Extract text from images.
+
+Simple CV-based FYP Ideas (Easy to Moderate)
+1. Face Attendance System
+Use case: Automated attendance tracking via facial recognition.
+
+Stack: OpenCV, FaceNet, Python (Flask), SQLite.
+
+Flow:
+
+vbnet
+Copy
+Edit
+Capture image → Detect face → Encode face → Compare with DB → Mark attendance
+2. Nepali Currency Detector
+Use case: Help visually impaired people identify Nepali currency notes.
+
+Stack: TensorFlow Lite, Android (or Flutter), MobileNet.
+
+Flow:
+
+objectivec
+Copy
+Edit
+Capture note → Preprocess → CNN model prediction → Announce via speech
+3. Plant Disease Detection
+Use case: Farmers photograph plant leaves to detect diseases.
+
+Stack: CNN (Transfer learning - MobileNetV2 or ResNet), Flask API.
+
+Flow:
+
+objectivec
+Copy
+Edit
+Capture leaf photo → Preprocess → CNN classification → Suggest treatments
+4. Vehicle Parking Slot Detection
+Use case: Automatically identifies vacant parking spaces from CCTV footage.
+
+Stack: OpenCV, YOLO, Python backend.
+
+Flow:
+
+css
+Copy
+Edit
+Capture video → YOLO detects vehicle positions → Map positions to parking slots → Live occupancy status
+5. Traffic Violation Detector
+Use case: Detect helmet-less riders or red-light violations.
+
+Stack: YOLO (object detection), OpenCV.
+
+Flow:
+
+css
+Copy
+Edit
+Video feed → Detect objects (bike, rider, helmet, traffic light) → Logic to flag violations
+⚙️ Simple CV Project Stack (Recommended)
+Programming Languages:
+
+Python (strongly recommended)
+
+JavaScript (for simple web integration)
+
+Core Libraries/Frameworks:
+
+OpenCV (computer vision tasks: detection, preprocessing, webcam)
+
+TensorFlow or PyTorch (deep learning models)
+
+YOLO (fast real-time object detection)
+
+MediaPipe (pose estimation and hand tracking)
+
+Deployment & Backend:
+
+Flask/FastAPI (quick API backend)
+
+SQLite or MongoDB (easy-to-use database)
+
+Streamlit (easy interactive app)
+
+Why choose a CV project for your FYP?
+Practical: Real-world use cases (attendance, safety, agriculture, traffic).
+
+Marketable: High demand in industries (security, health, automotive).
+
+Technically rich: Clear demonstration of AI knowledge (deep learning, image processing).
+
+Typical 10-week Milestone Plan (for CV FYP):
+
+Weeks	Tasks to complete
+1-2	Project definition, requirements, ER diagram, wireframe
+3	Data collection (images/video), preprocessing
+4	Build initial CV model prototype (baseline model)
+5-6	Improve model accuracy, test rigorously
+7	API integration (Flask), basic frontend
+8	Complete full-stack integration, deployment
+9	User testing, improve UI
+10	Documentation, final demo, report, GitHub upload
+Example of a super-simple CV setup (Face Attendance):
+Tech overview:
+Python, Flask, OpenCV, FaceNet model, SQLite
+
+Entities (DB tables):
+sql
+Copy
+Edit
+Students(id, name, face_encoding)
+Attendance(id, student_id, date, status)
+Typical workflow:
+Capture images using webcam.
+
+Detect and encode faces (FaceNet model).
+
+Match encoding with DB encodings.
+
+Mark attendance (insert/update in DB).
+
+What you’ll submit:
+GitHub Repo: Code, README, detailed steps for setup.
+
+Documentation: Project report (requirements, methodology, results, future scope).
+
+Demo: Working web/mobile app, recorded demo video.
+
+Recommended Resources (Beginner-friendly):
+OpenCV docs
+
+TensorFlow Hub (Pretrained models)
+
+YOLOv8 Guide
+
+FaceNet GitHub (face recognition)
+
+MediaPipe
+
