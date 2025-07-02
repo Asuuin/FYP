@@ -4,3 +4,26 @@ Last week pogress
 Net weeks plan 
 1. Continue literature review
 2. Continue website
+
+
+This is the theme that I added:
+
+A thematic approach has been taken to figure out what I really need to learn before I can build my Smart Expiry Alert System. I ended up with six main themes. Under each one I’ve jotted a few keywords I’ve been using to hunt down articles, blogs, and case studies.
+
+1. Getting the expiry data right – I need to know the best way to grab expiry dates fast and without mistakes (think QR codes vs. RFID vs. just reading the printed text).
+Keywords: QR code, GS1 2-D, RFID tags, OCR expiry, scan accuracy
+
+2. Making the tech talk in real time – The system has to sync everywhere really quickly, so I have to dig into IoT stuff and cloud databases.
+Keywords: MQTT, edge computing, micro-services, Kubernetes, NoSQL, latency test
+
+3. Sending alerts people actually notice – It’s useless if alerts get ignored, so I’m looking at how to time and format notifications so staff react.
+Keywords: SMS reminder, push notification, email alert, alert fatigue, behavioural nudge
+
+4. Turning raw data into “don’t-throw-this-away” insights – Beyond simple alerts, the system should predict waste and help with ordering.
+Keywords: shelf-life prediction, waste-reduction KPI, sell-through forecast, dashboard viz
+
+5. Making it easy (and even nice) to use – If staff hate the interface, the project flops. I need solid UX basics and usability benchmarks.
+Keywords: System Usability Scale, mobile UX, scan-to-action time, learning curve
+
+6. Figuring out how to prove it works – I’ve got to copy how other researchers test accuracy, speed, and waste savings so my own pilot study is believable.
+Keywords: pilot study, field experiment, accuracy benchmark, latency measure, waste-cut rate
